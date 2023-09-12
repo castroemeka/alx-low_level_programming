@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * main - print _putchar
- * is written by mbah
- * Return: 0
+ * is written by kings
+ * Return: always 0
  */
 int main(void)
 {
