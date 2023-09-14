@@ -11,6 +11,3 @@ else if (i == 0)
 else
         printf("%d is negative\n", i);
 }
-~
-~
-
