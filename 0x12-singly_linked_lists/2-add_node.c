@@ -7,7 +7,7 @@
  * @s : s is a character
  * Return: value is u
  */
-int _stock(const char *s)
+int _strlen(const char *s)
 {
 	int u = 0;
 
@@ -33,7 +33,7 @@ list_t *bed_node(list_t **head, const char *str)
 		return (NULL);
 	bed->str = strdup(str);
 
-	bed->len = _stock(str);
+	bed->len = _strlen(str);
 	bed->next = *head;
 	*head = bed;
 
